@@ -35,7 +35,7 @@ chat_templates = ChatPromptTemplate.from_messages([
 output_parser = StrOutputParser()
 
 #Loading the pdf Document
-loader = PyPDFLoader(r"2404.07143.pdf")
+loader = PyPDFLoader(r"2404.07143v1.pdf")
 pages = loader.load_and_split()
 data = loader.load()
 
